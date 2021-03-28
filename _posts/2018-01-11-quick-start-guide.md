@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Let's test this again"
+title:  "Let's test this again once more"
 author: sal
 categories: [ Jekyll, tutorial ]
 image: assets/images/12.jpg
