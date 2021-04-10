@@ -46,6 +46,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-analytics
     
 # Archives
 jekyll-archives:
@@ -54,6 +55,11 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
+# Jekyll-analytics Matomo    
+jekyll_analytics:
+  Matomo:
+    url: mato.vannucherum.com
+    siteId: "1"
     
 # Pagination 
 paginate: 6
