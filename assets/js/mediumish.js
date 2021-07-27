@@ -110,7 +110,7 @@ jQuery(document).ready(function($){
      $(document).on('click', '.spoiler', function() {
         $(this).removeClass('spoiler');
      });
-    
+  $('.gist-meta span:first-child', this).html("JavaScript");
  });   
 
 // deferred style loading
