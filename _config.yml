@@ -1,7 +1,7 @@
 # Site
 name: "vannucherum.com"
 title: "vannucherum.com"
-description: "Inspired by the great dialogue from the Malayalam movie \"പുതിയ മുഖം\" - Articles about education, technology and travel"
+description: "Inspired by the great dialogue from a Malayalam movie - Articles about education, technology and travel"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
@@ -13,31 +13,14 @@ permalink: /:title/
 
 # Authors
 authors:
-  spacepirate:
+  gp:
     name: Vishnu Gp
-    display_name: spacepirate
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    display_name: Vishnu Gp
+    gravatar: 11c36e5c9e27950da24bba0cb5cff7ef
     email: hello@vannucherum.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  sal:
-    name: Sal
-    display_name: Sal
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John    
-    avatar: 'assets/images/avatar.png'
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+    web: https://www.vishnugp.com
+    twitter: https://twitter.com/vishnu_g_p
+    description: "Author of vannucherum.com | Backend Engineer | Solutions Architect | Technology Enthusiast"
 
 # Plugins
 plugins:
