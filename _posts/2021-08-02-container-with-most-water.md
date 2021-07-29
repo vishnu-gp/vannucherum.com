@@ -8,7 +8,7 @@ tags: [arrays, interview, algorithms, data-structures]
 description: "Solving container with most water problem. Different approaches to solve the problem and their curresponding time and space complexities explained."
 featured: false
 hidden: false
-rating: 4.5
+rating: 4.0
 ---
 
 Today we are going to discuss another array-based question which is going to be a little bit tougher than the previous one. 
@@ -65,4 +65,4 @@ In this solution, we will traverse the array using a single loop and two pointer
 As we can see this will only iterate the array once and no nested loops are present the run time complexity of this method will be O(n)
 
 ## References
-+    <a href="https://leetcode.com/problems/container-with-most-water/">Container with most water on LeetCode</a>
++    <a target="_blank" href="https://leetcode.com/problems/container-with-most-water/">Container with most water on LeetCode</a>
