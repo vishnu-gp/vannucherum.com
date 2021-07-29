@@ -2,9 +2,9 @@
 layout: post
 title:  "Two Sum, the famous Google interview question"
 author: gp
-categories: [ Google, Algorithms, Data Structures]
+categories: [ Google, Algorithms, Data Structures, Arrays, Easy]
 image: assets/images/google-logo.webp
-tags: [google, interview, algorithms, data-structures]
+tags: [arrays, google, interview, algorithms, data-structures]
 description: "Solving Two Sum, the famous Google interview question. Different approaches to solve the problem and their curresponding time and space complexities explained."
 featured: true
 hidden: false
