@@ -39,7 +39,7 @@ Output: [1,2]
 
 The first method comes to our mind in solving this to check all the possible pairs of elements in the input array `nums` and verify their sum and if that equals the `target` we can return the corresponding indices of the array. Such a solution would look like the following:
 
-<script src="http://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/01_TwoSum/BruteForce.js?slice=7:18"></script>
+<script src="http://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Arrays/01_TwoSum/BruteForce.js?slice=7:18"></script>
 
 
 Here we select an element and compare its complementing element(target minus the element) to all the other elements then repeat the process for all elements until we get the result matching. The problem with this approach is it isn't much efficient since it's going to take O(n<sup>2</sup>) run time complexity.
@@ -48,7 +48,7 @@ The real objective of this problem is to find an optimal solution that would tak
 ## The Optimal Solution
 To create an optimal solution we are going to use a hash map where we store the complementing element as a key while looping through each element in the input array and check the present element is present as a key already in the hash map before adding them. If the element matches with a key in the hash map we can return the corresponding indices.
 
-<script src="http://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/01_TwoSum/OptimalSolution.js?slice=7:18"></script>
+<script src="http://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Arrays/01_TwoSum/OptimalSolution.js?slice=7:18"></script>
 
 The run time complexity of this method will be O(n)
 
