@@ -8,7 +8,7 @@ tags: [arrays, interview, algorithms, data-structures]
 description: "Solving container with most water problem. Different approaches to solve the problem and their curresponding time and space complexities explained."
 featured: false
 hidden: false
-rating: 4.0
+rating: 4
 ---
 
 Today we are going to discuss another array-based question which is going to be a little bit tougher than the previous one. 

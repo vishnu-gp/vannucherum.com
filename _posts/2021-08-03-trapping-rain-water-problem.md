@@ -8,7 +8,7 @@ tags: [arrays, interview, algorithms, data-structures]
 description: "Solving Trapping Rainwater Problem. Different approaches to solve the problem and their curresponding time and space complexities explained."
 featured: false
 hidden: false
-rating: 4.0
+rating: 4
 ---
 
 
