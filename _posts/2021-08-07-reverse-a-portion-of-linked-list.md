@@ -3,7 +3,7 @@ layout: post
 title:  "Reverse A Portion of The Linked List"
 author: gp
 categories: [ Algorithms, Data Structures, Linked Lists, Medium]
-image: assets/images/reverse-linked-list-example.jpg
+image: https://res.cloudinary.com/vannucherum/image/upload/v1627998586/vannucherum.com/posts/2021-08-07-reverse-a-portion-of-linked-list/reverse-linked-list-example_xvz9bg.jpg
 tags: [linked-lists, interview, algorithms, data-structures]
 description: "Solving Reverse A Portion of the Linked List Problem. Different approaches to solve the problem and their curresponding time and space complexities explained."
 featured: false
@@ -19,7 +19,7 @@ Given the `head` of a singly linked list and two integers `m` and `n` where `m` 
   
 
 **Example 1:**
-<img src="/assets/images/reverse-linked-list-example.jpg">
+<img src="https://res.cloudinary.com/vannucherum/image/upload/v1627998586/vannucherum.com/posts/2021-08-07-reverse-a-portion-of-linked-list/reverse-linked-list-example_xvz9bg.jpg">
 ```
 Input: head = [1,2,3,4,5], m = 2, n = 4
 Output: [1,4,3,2,5]

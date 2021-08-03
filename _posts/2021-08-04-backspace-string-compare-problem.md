@@ -3,7 +3,7 @@ layout: post
 title:  "Backspace String Compare Problem"
 author: gp
 categories: [Algorithms, Data Structures, Strings, Easy]
-image: assets/images/backspace-string-compare.jpg
+image: https://res.cloudinary.com/vannucherum/image/upload/v1627998397/vannucherum.com/posts/2021-08-04-backspace-string-compare-problem/backspace-string-compare_poal4w.jpg
 tags: [strings, interview, algorithms, data-structures]
 description: "Solving Backspace String Compare Problem. Different approaches to solve the problem and their curresponding time and space complexities explained."
 featured: true

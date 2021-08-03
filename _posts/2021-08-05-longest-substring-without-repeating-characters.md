@@ -3,7 +3,7 @@ layout: post
 title:  "Longest Substring Without Repeating Characters"
 author: gp
 categories: [ Algorithms, Data Structures, Strings, Medium]
-image: assets/images/sliding-window-problem.jpg
+image: https://res.cloudinary.com/vannucherum/image/upload/v1627998466/vannucherum.com/posts/2021-08-05-longest-substring-without-repeating-characters/sliding-window-problem_sk9wx3.jpg
 tags: [strings, interview, algorithms, data-structures]
 description: "Solving Longest Substring Without Repeating Characters Problem. Different approaches to solve the problem and their curresponding time and space complexities explained."
 featured: false

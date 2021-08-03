@@ -3,7 +3,7 @@ layout: post
 title:  "Container with most water problem"
 author: gp
 categories: [Algorithms, Data Structures, Arrays, Medium]
-image: assets/images/container-max-water.jpg
+image: https://res.cloudinary.com/vannucherum/image/upload/v1627998106/vannucherum.com/posts/2021-08-02-container-with-most-water/container-most-water_mtppjk.jpg
 tags: [arrays, interview, algorithms, data-structures]
 description: "Solving container with most water problem. Different approaches to solve the problem and their curresponding time and space complexities explained."
 featured: false
@@ -21,7 +21,7 @@ Today we are going to discuss another array-based question which is going to be 
 **Notice** that you may not slant the container.
 
 **Example 1:**
-<img src="/assets/images/container-max-water.jpg">
+<img src="https://res.cloudinary.com/vannucherum/image/upload/v1627998106/vannucherum.com/posts/2021-08-02-container-with-most-water/container-most-water_mtppjk.jpg">
 ```
 Input: height = [1,8,6,2,5,4,8,3,7]
 Output: 49

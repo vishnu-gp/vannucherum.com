@@ -3,7 +3,7 @@ layout: post
 title:  "Trapping Rainwater Problem"
 author: gp
 categories: [ Algorithms, Data Structures, Arrays, Hard]
-image: assets/images/trapping-rainwater.png
+image: https://res.cloudinary.com/vannucherum/image/upload/v1627998335/vannucherum.com/posts/2021-08-03-trapping-rain-water-problem/trapping-rainwater_x4jpad.png
 tags: [arrays, interview, algorithms, data-structures]
 description: "Solving Trapping Rainwater Problem. Different approaches to solve the problem and their curresponding time and space complexities explained."
 featured: false
@@ -20,7 +20,7 @@ Given `n` non-negative integers representing an elevation map where the width of
 
 **Example 1:**
 
-<img src="/assets/images/trapping-rainwater.png">
+<img src="https://res.cloudinary.com/vannucherum/image/upload/v1627998335/vannucherum.com/posts/2021-08-03-trapping-rain-water-problem/trapping-rainwater_x4jpad.png">
 ```
 Input: height = [0,1,0,2,1,0,1,3,2,1,2,1]
 Output: 6
