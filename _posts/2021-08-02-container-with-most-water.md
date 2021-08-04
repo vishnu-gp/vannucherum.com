@@ -5,7 +5,7 @@ author: gp
 categories: [Algorithms, Data Structures, Arrays, Medium]
 image: https://res.cloudinary.com/vannucherum/image/upload/v1627998106/vannucherum.com/posts/2021-08-02-container-with-most-water/container-most-water_mtppjk.jpg
 tags: [arrays, interview, algorithms, data-structures]
-description: "Solving container with most water problem. Different approaches to solve the problem and their curresponding time and space complexities explained."
+description: "Solving container with most water problem. Different approaches to solve the problem and their corresponding time and space complexities explained."
 featured: false
 hidden: false
 rating: 4

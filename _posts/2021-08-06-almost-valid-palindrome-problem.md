@@ -5,7 +5,7 @@ author: gp
 categories: [ Algorithms, Data Structures, Strings, Easy]
 image: https://res.cloudinary.com/vannucherum/image/upload/v1627998536/vannucherum.com/posts/2021-08-06-almost-valid-palindrome-problem/almost-palindrome_sad8cb.jpg
 tags: [strings, interview, algorithms, data-structures]
-description: "Solving Almost Valid Palindrome Problem. Different approaches to solve the problem and their curresponding time and space complexities explained."
+description: "Solving Almost Valid Palindrome Problem. Different approaches to solve the problem and their corresponding time and space complexities explained."
 featured: false
 hidden: false
 rating: 3

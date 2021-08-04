@@ -5,7 +5,7 @@ author: gp
 categories: [ Google, Algorithms, Data Structures, Arrays, Easy]
 image: https://res.cloudinary.com/vannucherum/image/upload/v1627993442/vannucherum.com/posts/2021-08-01-two-sum-google-interview-question/google-logo_nyw3c0.webp
 tags: [arrays, google, interview, algorithms, data-structures]
-description: "Solving Two Sum, the famous Google interview question. Different approaches to solve the problem and their curresponding time and space complexities explained."
+description: "Solving Two Sum, the famous Google interview question. Different approaches to solve the problem and their corresponding time and space complexities explained."
 featured: true
 hidden: false
 rating: 4.5

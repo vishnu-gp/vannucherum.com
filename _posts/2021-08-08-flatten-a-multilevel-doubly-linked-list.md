@@ -5,7 +5,7 @@ author: gp
 categories: [ Algorithms, Data Structures, Linked Lists, Medium]
 image: https://res.cloudinary.com/vannucherum/image/upload/v1628062785/vannucherum.com/posts/2021-08-08-flatten-a-multilevel-doubly-linked-list/thumb.png
 tags: [linked-lists, interview, algorithms, data-structures]
-description: "Solving Reverse A Portion of the Linked List Problem. Different approaches to solve the problem and their curresponding time and space complexities explained."
+description: "Solving Flatten a Multilevel Doubly Linked List Problem. Different approaches to solve the problem and their corresponding time and space complexities explained."
 featured: false
 hidden: false
 rating: 4
@@ -26,7 +26,7 @@ Flatten the list so that all the nodes appear in a single-level, doubly linked l
 **Example 1:**
 
 ```
-Input: head = head = [1,2,3,4,5,6,null,null,null,7,8,9,10,null,null,11,12]
+Input: head = [1,2,3,4,5,6,null,null,null,7,8,9,10,null,null,11,12]
 
 Output: [1,2,3,7,8,11,12,9,10,4,5,6]
 ```

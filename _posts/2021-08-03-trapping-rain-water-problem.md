@@ -5,7 +5,7 @@ author: gp
 categories: [ Algorithms, Data Structures, Arrays, Hard]
 image: https://res.cloudinary.com/vannucherum/image/upload/v1627998335/vannucherum.com/posts/2021-08-03-trapping-rain-water-problem/trapping-rainwater_x4jpad.png
 tags: [arrays, interview, algorithms, data-structures]
-description: "Solving Trapping Rainwater Problem. Different approaches to solve the problem and their curresponding time and space complexities explained."
+description: "Solving Trapping Rainwater Problem. Different approaches to solve the problem and their corresponding time and space complexities explained."
 featured: false
 hidden: false
 rating: 4
