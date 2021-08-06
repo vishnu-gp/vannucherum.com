@@ -280,6 +280,8 @@ span.post-read-more a:hover {
 
 .mediumnavigation .navbar-brand {
     font-weight: 500;
+    font-family: Righteous;
+    font-size: 1.75rem;
 }
 
 .mediumnavigation .dropdown-menu {
