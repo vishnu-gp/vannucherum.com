@@ -57,12 +57,12 @@ The first thing we can think about is to process the input strings to get the fi
 -   In the end, we will have the final string as an array
 
 Let's write a function for that
-<script src="http://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Strings/01_TypedOutStrings/BruteForce.js?slice=6:17"></script>
+<script src="https://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Strings/01_TypedOutStrings/BruteForce.js?slice=6:17"></script>
 
 We can use the above function for the two strings and avoid code duplication using this functional programming approach. Now we have the final strings and we just need to compare the two by looping through them.
 
 
-<script src="http://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Strings/01_TypedOutStrings/BruteForce.js?slice=25:36"></script>
+<script src="https://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Strings/01_TypedOutStrings/BruteForce.js?slice=25:36"></script>
 
 This method will cost O(m+n) time and space complexity, where m and n are the lengths of input strings.
 
@@ -77,7 +77,7 @@ Since we already solved this question, let's now think about doing it a better w
 
 The implementation of the above logic would look like
 
-<script src="http://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Strings/01_TypedOutStrings/OptimalSolution.js?slice=7:41"></script>
+<script src="https://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Strings/01_TypedOutStrings/OptimalSolution.js?slice=7:41"></script>
 
 The advantage of this method is it would not take the extra space complexity which was needed to store the process strings as an array. Where the time complexity remains O(m+n)
 

@@ -51,7 +51,7 @@ During each iteration, loop through the remaining characters until there is a ch
 Compare and store the max length from the length of all such strings
 To remember the characters we will use a hash map as cache.
 In code, this would look like,
-<script src="http://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Strings/02_LongestSubstring/BruteForce.js?slice=6:23"></script>
+<script src="https://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Strings/02_LongestSubstring/BruteForce.js?slice=6:23"></script>
 
 As with most of the brute force solutions, this is also an O(n<sup>2</sup>) solution and that insists to think about a better solution.
 
@@ -64,7 +64,7 @@ If we see a repeating character we will move the left pointer to the point next 
 We repeat this process until the right pointer reaches the end of the input string.
 To make this happen, this time we will have to store the position of strings as well well in the hash map.
 Let's see how to write such a code implementation.
-<script src="http://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Strings/02_LongestSubstring/OptimalSolution.js?slice=6:21"></script>
+<script src="https://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Strings/02_LongestSubstring/OptimalSolution.js?slice=6:21"></script>
 
 With this, we have solved the longest substring problem very efficiently with a run-time complexity of O(n).
 

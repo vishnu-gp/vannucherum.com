@@ -3,7 +3,7 @@ name: "vannucherum.com"
 title: "vannucherum.com"
 description: "Inspired by the great dialogue from a Malayalam movie - Articles about education, technology and travel"
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+# favicon: 'assets/images/logo.png'
 baseurl: ''
 # google_analytics: 'UA-46278016-1'
 disqus: 'vannucherum'
