@@ -53,6 +53,6 @@ To create an optimal solution we are going to use a hash map where we store the 
 The run time complexity of this method will be O(n)
 
 ## References
-<a href="https://leetcode.com/problems/two-sum/">Two Sum problem on LeetCode</a>
+<a target="_blank" href="https://leetcode.com/problems/two-sum/">Two Sum problem on LeetCode</a>
 
 <iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/XKu_SEDAykw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
