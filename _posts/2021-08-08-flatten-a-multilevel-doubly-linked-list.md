@@ -71,7 +71,7 @@ Doubly linked lists will have two pointers one pointing to the next node and the
 
 The above logic in code would look like,
 
-<script src="https://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/LinkedLists/02_FlattenMultiLevelDoublyLinkedList/Solution.js?slice=15:39"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fvishnu-gp%2Falgorithm-ds%2Fblob%2Fmaster%2FExcercises%2FLinkedLists%2F02_FlattenMultiLevelDoublyLinkedList%2FSolution.js%23L16-L39&style=github&showBorder=on&showFileMeta=on"></script>
 
   
 

@@ -56,7 +56,7 @@ If the current character is `(` push the position of  to stack
 If the current character is `)` then we check the stack's state. If the stack is empty it means that means we are encountering a closing parenthesis before seeing a corresponding opening parenthesis, so it's clear that we don't need that in the string, so we remove that and adjust the value of `i` to match with the new string length. If the stack wasn't empty then we just pop out the last opening parenthesis from the stack to match the count and move forward.
 By the time we reach the end of the string if there is any opening parenthesis left in the stack that means they don't have any matching closing parenthesis in the string, so we will remove those parentheses as well from the string to get the final output.
 The above logic written in JavaScript would look like,
-<script src="https://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Stacks/02_MinimumRemoveToMakeValidParentheses/Solution.js?slice=5:26"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fvishnu-gp%2Falgorithm-ds%2Fblob%2Fmaster%2FExcercises%2FStacks%2F02_MinimumRemoveToMakeValidParentheses%2FSolution.js%23L5-L26&style=github&showBorder=on&showFileMeta=on"></script>
 
  The time complexity of this problem is O(n) and we are not using any extra scaling memory space here.
 

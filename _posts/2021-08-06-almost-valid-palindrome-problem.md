@@ -44,11 +44,11 @@ Start two different pointers one from starting of the string and another from th
 The two-pointer method can also be implemented from the middle of the string by moving pointers outwards too.
 
 The two-pointer inward method implemented in code would look like,
-<script src="https://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Strings/03_AlmostPalindrome/Solution.js?slice=7:18"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fvishnu-gp%2Falgorithm-ds%2Fblob%2Fmaster%2FExcercises%2FStrings%2F03_AlmostPalindrome%2FSolution.js%23L8-L18&style=github&showBorder=on&showFileMeta=on"></script>
 Here `s` the string, `left` is the starting position and `right` is the ending position of the string.
 
 Now to check the string is almost palindrome, we should do a process similar to the above but as soon as we see the first unmatching case, we should check if the string will become palindrome by eliminating either one of the characters at the pointer positions. Here one advantage we have is we only have to check the remaining part of the string since the other part is already verified. To write a code solution for this let's make use of the above function as well.
-<script src="https://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Strings/03_AlmostPalindrome/Solution.js?slice=24:36"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fvishnu-gp%2Falgorithm-ds%2Fblob%2Fmaster%2FExcercises%2FStrings%2F03_AlmostPalindrome%2FSolution.js%23L25-L36&style=github&showBorder=on&showFileMeta=on"></script>
 
 The time complexity of this solution will be O(n).
 

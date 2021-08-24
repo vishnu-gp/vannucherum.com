@@ -54,13 +54,13 @@ Here, it's very clear that to find the area of water between two heights we need
 
 ## The Solution
 With the above formula in mind let's move forward to solve this problem programmatically. As usual, we will find all areas between all the possible pairs of elements in the array and take return the maximum. This will be a brute force method and such a coding solution would look like,
-<script src="https://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Arrays/02_MaxWaterContainer/BruteForce.js?slice=6:18"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fvishnu-gp%2Falgorithm-ds%2Fblob%2Fmaster%2FExcercises%2FArrays%2F02_MaxWaterContainer%2FBruteForce.js%23L7-L18&style=github&showBorder=on&showFileMeta=on"></script>
 
 We know the problem with this approach is it would take O(n<sup>2</sup>) time complexity. That's the reason we need to find an optimal solution that would give us better time complexity.
 
 ## The Optimal Solution
 In this solution, we will traverse the array using a single loop and two pointers from either of the edges. We will move the pointer inwards if it is less than or equal to the other one. We repeat this operation until the two pointers meet and compare all the possible area values to get the maximum area. The following is the code solution for this.
-<script src="https://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Arrays/02_MaxWaterContainer/OptimalSolution.js?slice=6:23"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fvishnu-gp%2Falgorithm-ds%2Fblob%2Fmaster%2FExcercises%2FArrays%2F02_MaxWaterContainer%2FOptimalSolution.js%23L7-L23&style=github&showBorder=on&showFileMeta=on"></script>
 
 As we can see this will only iterate the array once and no nested loops are present the run time complexity of this method will be O(n)
 

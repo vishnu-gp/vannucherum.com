@@ -31,7 +31,7 @@ To implement a queue using stacks,
 - Deletions will always happen at the top of the stack `out` by moving all elements of `in` to `out` before deletion
 
 This way it will be a FIFO data structure using two stacks which works as LIFO. Let's see the JavaScript Class implementation of this logic,
-<script src="https://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Queues/01_ImplementQueueUsingStacks/QueueWithStacks.js"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fvishnu-gp%2Falgorithm-ds%2Fblob%2Fmaster%2FExcercises%2FQueues%2F01_ImplementQueueUsingStacks%2FQueueWithStacks.js%23L1-L34&style=github&showBorder=on&showFileMeta=on"></script>
 
  One disadvantage of implementing a queue using stacks is the increase in the time complexity of `dequeue` and `peek` operations. Originally operations `enqueue`, `dequeue` and `peek` operations will only take O(1) time complexity but when we implement it using stacks due to the limitations in the stack `dequeue` and `peek` operations will take O(n) time complexity.
 
