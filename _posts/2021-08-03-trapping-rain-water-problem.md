@@ -51,7 +51,7 @@ If we repeat this step for all elements in the array and add up results that wil
 ## The Solution
 
 With the above concepts in mind let's move forward to solve this problem programmatically. So we will loop through each element of the array and find its leftMax and rightMax then add the results to the total value. This will be a brute force method and such a coding solution would look like,
-<script src="https://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Arrays/03_TrappingRainWater/BruteForce.js?slice=6:23"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fvishnu-gp%2Falgorithm-ds%2Fblob%2Fmaster%2FExcercises%2FArrays%2F03_TrappingRainWater%2FBruteForce.js%23L7-L23&style=github&showBorder=on&showFileMeta=on"></script>
 
 As you can see here we area looping n times in each n iteration of the array, the time complexity of this problem will be O(n<sup>2</sup>). So let's think about an optimal solution to solve this problem.
 
@@ -63,7 +63,7 @@ In this solution, we will traverse the array using a single loop and two pointer
 Now the current will be compared with its maxLeft or maxRight value to determine if water can be trapped on top of the current value. If yes, that value will be added to the total or else the max value will be updated then the pointer value is moved inwards. 
 
 Repeating this process until the pointers meet each other would give us the total water trapped.  The following is the code solution for this.
-<script src="https://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/Arrays/03_TrappingRainWater/OptimalSolution.js?slice=6:28"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fvishnu-gp%2Falgorithm-ds%2Fblob%2Fmaster%2FExcercises%2FArrays%2F03_TrappingRainWater%2FOptimalSolution.js%23L7-L28&style=github&showBorder=on&showFileMeta=on"></script>
 
 As we can see this will only iterate the array once and no nested loops are present the run time complexity of this method will be O(n)
 

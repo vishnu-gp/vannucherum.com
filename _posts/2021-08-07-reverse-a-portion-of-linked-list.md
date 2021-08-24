@@ -38,7 +38,7 @@ From m<sup>th</sup> position to n<sup>th</sup> position reverse the linked list.
 Finally combine the first portion, the middle portion(the reversed portion) and the last portion of the lists.
 
 Let's write this logic into code as
-<script src="https://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/LinkedLists/01_ReversePartOfLinkedList/Solution.js?slice=7:29"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fvishnu-gp%2Falgorithm-ds%2Fblob%2Fmaster%2FExcercises%2FLinkedLists%2F01_ReversePartOfLinkedList%2FSolution.js%23L8-L29&style=github&showBorder=on&showFileMeta=on"></script>
 
 The time complexity of this solution will be O(n).
 

@@ -55,7 +55,7 @@ Explanation: There is no cycle in the linked list.
 
 ## The Solution  
 The first method that comes to our mind is to loop through the linked list and check if the current element is one of the already visited elements. If yes we can return the current element position as the point where the loop starts. This is pretty straight forward and lets try to write the program,
-<script src="https://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/LinkedLists/03_CycleDetection/Solution.js?slice=13:26"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fvishnu-gp%2Falgorithm-ds%2Fblob%2Fmaster%2FExcercises%2FLinkedLists%2F03_CycleDetection%2FSolution.js%23L14-L26&style=github&showBorder=on&showFileMeta=on"></script>
 
  The time complexity of this problem is O(n) but the disadvantage of this method is we have to use extra space for storing the already seen elements which can grow up to O(n). Let's see if we can solve this problem without using extra space.
 
@@ -66,7 +66,7 @@ If there's a cycle according to Floyd's algorithm these two pointers will meet a
 To find the element from which the cycle started, we can initiate a pointer from the head at the moment when `tortoise` and `hare` met and then increment that pointer and the pointer at the met place one step at a time until they both meet.
 The new meeting place will be the place from which the cycle started.
 Let's try to write that in code,
-<script src="https://gist-it.appspot.com/https://github.com/vishnu-gp/algorithm-ds/blob/master/Excercises/LinkedLists/03_CycleDetection/OptimalSolution.js?slice=13:33"></script>
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fvishnu-gp%2Falgorithm-ds%2Fblob%2Fmaster%2FExcercises%2FLinkedLists%2F03_CycleDetection%2FOptimalSolution.js%23L14-L33&style=github&showBorder=on&showFileMeta=on"></script>
 
 The time complexity of this solution will also be O(n) but since we are not taking any extra memory space this method will be more efficient than the previous one.
   
