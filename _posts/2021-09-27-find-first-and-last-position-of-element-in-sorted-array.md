@@ -46,7 +46,7 @@ Looking at the problem the first method of solving that comes into our mind is t
 
 So with that in mind, the potential solution we can find will be using Binary Search. Such a solution can be described as,
 - Run a Binary Search to find if the element is present at least once.
-- If the element is present, to find the first occurrence of the element we can do the Binary Search again in the left side part of the array to see if the element is present in that sub-array portion. - This process can be repeated until we get a -1 return that means the element isn't present in the subarray. At this point, the last known position where we found the element will be the starting position of the element in the main array.
+- If the element is present, to find the first occurrence of the element we can do the Binary Search again in the left side part of the array to see if the element is present in that sub-array portion. This process can be repeated until we get a -1 return that means the element isn't present in the subarray. At this point, the last known position where we found the element will be the starting position of the element in the main array.
 - The above step can be repeated in the right side part of the array as well to get the last occurrence.
  
 In code this solution will be,
